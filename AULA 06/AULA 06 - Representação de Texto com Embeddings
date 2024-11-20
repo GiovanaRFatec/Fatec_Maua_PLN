@@ -1,0 +1,30 @@
+-> Introdução a Embeddings de Palavras
+são representações numéricas densas e contínuas de palavras que permitem aos computadores entenderem relações
+semânticas entre termos. Essa técnica é uma evolução no Processamento de Linguagem Natural (PLN), 
+que superou métodos simples como Bag of Words e TF-IDF, oferecendo representações que capturam significado
+e contexto. São vetores densos de números reais (como [0.12, 0.85, -0.56, ...]) que representam palavras em um espaço multidimensional.
+Vetores de palavras semanticamente próximas no significado são colocados mais próximos no espaço vetorial.
+Capturam o significado das palavras.
+Exemplo: Os vetores de "rei" e "rainha" estão próximos porque compartilham atributos relacionados a realeza.
+
+-> Word2Vec
+é um dos modelos mais populares para gerar embeddings de palavras em Processamento de Linguagem Natural (PLN).
+Ele foi desenvolvido por Tomas Mikolov e sua equipe no Google, e permite representar palavras como vetores 
+em um espaço vetorial denso, com a capacidade de capturar relações semânticas e contextuais entre elas.
+O modelo CBOW tenta prever uma palavra central (target) com base nas palavras do seu contexto.
+Exemplo: Dada a sequência de palavras "o cachorro adora osso", o modelo tentaria prever a palavra
+"adora" usando as palavras "o", "cachorro" e "osso" como contexto.
+Eficiência Computacional
+Transferência de aprendizado
+Captura de Relações Semântica
+
+-> GloVe (Global Vectors for Word Representation)
+Constrói uma matriz de coocorrência, onde cada célula representa o número de vezes que uma palavra ocorre
+ao lado de outra no corpus. Converte essa matriz em embeddings ao encontrar padrões nas probabilidades de 
+coocorrência, gerando vetores que capturam semelhanças e diferenças semânticas entre palavras. 
+
+->  FastText 
+é uma biblioteca desenvolvida pelo Facebook AI Research (FAIR) que melhora o Word2Vec ao considerar 
+subpalavras (n-gramas) em vez de tratar as palavras como unidades indivisíveis. Isso permite que o
+FastText lide melhor com palavras raras ou desconhecidas, como palavras compostas ou erros tipográficos
+Subpalavras (n-gramas), Melhor Desempenho com Palavras Raras, Representações de Palavras com Subcomponentes
