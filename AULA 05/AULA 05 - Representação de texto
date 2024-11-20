@@ -1,0 +1,21 @@
+-> Bag of Words (BoW): é uma abordagem simples e amplamente usada no Processamento de Linguagem Natural (PLN)
+para representar textos em um formato numérico. Ela transforma um texto em uma representação baseada na
+frequência das palavras, sem considerar a ordem ou o contexto em que aparecemTransforma o texto em uma 
+lista de frequências de palavras, onde cada posição representa a quantidade de vezes que uma palavra 
+específica aparece em um documento. 
+Construção do vocabulário
+Representação como vetores
+
+-> TF-IDF: é uma técnica amplamente utilizada no Processamento de Linguagem Natural (PLN) para calcular a 
+relevância de uma palavra em um documento, levando em conta não apenas sua frequência, mas também como ela 
+é distribuída em outros documentos de um corpus. Ele é uma extensão mais avançada do Bag of Words (BoW).
+Uma representação mais avançada, que dá peso às palavras de acordo com a frequência de ocorrência 
+em um único documento versus em toda a coleção de documentos (corpus). 
+
+
+-> Word Embeddings: é uma técnica no Processamento de Linguagem Natural (PLN) para representar palavras em um 
+espaço vetorial de alta dimensionalidade. Ele mapeia palavras para vetores densos, capturando relações 
+semânticas e contextuais entre elas. Diferente do Bag of Words e do TF-IDF, que tratam palavras como entidades independentes, os embeddings consideram o contexto das palavras no texto.Técnicas que criam representações numéricas que capturam semelhanças semânticas, 
+representando palavras com vetores que refletem seus significados no contexto. 
+Representação vetorial densa:
+Relações semânticas:
