@@ -1,0 +1,31 @@
+-> Normalização de Texto e Remoção de Ruído -  são passos fundamentais no Processamento de Linguagem Natural(PLN).
+Esses processos preparam os dados textuais para serem analisados, limpando e padronizando o texto para
+melhorar a precisão de tarefas como classificação, análise de sentimentos ou tradução
+Conversão para minúsculas:
+Facilita comparações, já que "Python" e "python" serão tratados como iguais.
+Exemplo: "Texto de Exemplo" → "texto de exemplo".
+Remoção de pontuação:
+Retira dígitos caso não sejam importantes para o contexto.
+Exemplo: "Tenho 2 gatos" → "Tenho gatos".
+Stemming ou lematização:
+Reduz palavras à sua forma raiz (stemming) ou base gramatical (lemmatização).
+Exemplo: "correndo", "correu", "correrá" → "correr".
+
+-> Tokenização - é o processo de dividir um texto em unidades menores chamadas tokens, que podem ser palavras, 
+frases, ou até mesmo caracteres, dependendo do contexto. É um passo fundamental no Processamento de Linguagem
+Natural (PLN) porque muitos algoritmos trabalham melhor com texto estruturado dessa forma.
+Tokenização de palavras (Word Tokenization):
+Divide o texto em palavras individuais.
+Exemplo:
+Texto: "Eu amo PLN!"
+Tokens: ["Eu", "amo", "PLN", "!"]
+Tokenização de frases (Sentence Tokenization):
+Divide o texto em frases completas.
+Exemplo:
+Texto: "Eu amo PLN! É muito interessante."
+Tokens: ["Eu amo PLN!", "É muito interessante."]
+
+-> Remoção de Stopwords - Stopwords são palavras de pouco valor semântico que podem ser removidas
+para simplificar o texto 
+ Stemming e Lematização - Stemming reduz as palavras às suas raízes (ou radicais). 
+goLematização normaliza as palavras para suas formas base, levando em conta contexto e gramática. 
