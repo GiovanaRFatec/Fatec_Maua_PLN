@@ -1,0 +1,31 @@
+Introdução a bibliotecas de PLN
+-> SpaCy - biblioteca em Python voltada para Processamento de Linguagem Natural (PLN), 
+amplamente usada por sua eficiência e desempenho em tarefas como análise e manipulação de texto.
+Ele é projetado para lidar com grandes volumes de dados textuais e oferece suporte a várias linguagens. 
+Rápida e eficiente, com suporte a múltiplas linguagens, oferece funcionalidades;
+Principais Funcionalidades: 
+Tokenização: Divide o texto em palavras, frases e subpalavras com precisão. 
+Lematização: Converte palavras para suas formas básicas . 
+POS-tagging (Part-of-Speech tagging): Determina a função gramatical de cada palavra. 
+Reconhecimento de Entidades Nomeadas (NER): Identifica nomes próprios, locais, datas, entre outros, no texto. 
+
+-> NLTK (Natural Language Toolkit)  - biblioteca em Python muito utilizada para Processamento de Linguagem 
+Natural (PLN). Ela é conhecida por ser uma ferramenta educacional poderosa, com vários recursos para analisar
+textos e realizar tarefas como tokenização, stemming, lematização e muito mais.
+Principais Funcionalidades:
+Tokenização e Stemming/Lematização: Divide o texto e reduz palavras para suas raízes. 
+POS-tagging: Etiquetagem gramatical das palavras. 
+Corpus Integrado: NLTK já vem com diversos corpora prontos para serem utilizados, 
+como o Brown Corpus e Reuters. 
+FreqDist e n-gramas: Ferramentas para análise estatística de frequência de palavras e extração de
+frases comuns
+
+-> Hugging Face Transformers - biblioteca em Python muito utilizada para Processamento de Linguagem Natural 
+(PLN). Ela é conhecida por ser uma ferramenta educacional poderosa, com vários recursos para analisar 
+textos e realizar tarefas como tokenização, stemming, lematização e muito mais.
+Principais Funcionalidades: 
+Modelos Pré-Treinados: BERT, GPT, RoBERTa e outros modelos para classificação, tradução, sumarização, etc. 
+Pipeline Integrado: Fornece uma interface simplificada para tarefas como análise de sentimentos, NER, resposta a perguntas e tradução automática. 
+Customização e Fine-Tuning: Permite ajustar modelos pré-treinados com seus próprios dados. 
+
+Segue notebooks da aula, separada em duas etapas
