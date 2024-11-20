@@ -1,0 +1,21 @@
+Aula 09/11
+Introdução a PLN (Natural Language Processing) = É uma área da inteligência artificial que se concentra
+em ensinar máquinas a entender, interpretar e responder à linguagem humana, seja escrita ou falada.
+-> Fonologia
+-> Morofologia
+-> Sintaxe : Como as máquinas identificam a estrutura gramatical de sentenças.
+-> Semântica : Como as máquinas entendem o significado de palavras no contexto. 
+-> Pragmática : Ironia e implicação no discurso
+
+Relação entre linguística  e PLN
+PLN é a criação de de sistemas para máquinas entenderem e respodner posteriormente a mensagem para os humanos.
+Linguística é a base teórica para esse sistema que tem como ferramentas:
+-> Fonologia e Reconhecimento de Fala
+-> Morfologia e Geração/Compreensão de Palavras
+-> Sintaxe e Estruturação de Frases
+-> Semântica e Significado
+-> Pragmática e Contexto
+
+
+Na aula insiremos no notebook frases e palavras para entendermos o PLN e o tokenização
+Exemplos - Demonstração de segmentação, tokenização e árvore de dependência
