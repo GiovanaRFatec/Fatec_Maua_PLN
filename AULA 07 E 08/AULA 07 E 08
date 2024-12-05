@@ -1,0 +1,50 @@
+AULA 07 
+Modelagem de tópicos em Latent Dirichket Allocation (LDA)
+o que é LDA?
+A modelagem de tópicos é uma técnica que organiza coleções de documentos em “temas” ou “tópicos” recorrentes, sem a 
+necessidade de rotulação manual. Ela permite que um sistema identifique automaticamente quais são os principais assuntos 
+tratados em um conjunto de textos.
+Por exemplo, em um conjunto de artigos de notícias, a modelagem de tópicos pode encontrar categorias como “política”,
+“esportes”, “economia” ou “entretenimento”, agrupando automaticamente textos que tratem de cada um desses temas.
+
+O que é Modelagem de Tópicos: 
+A modelagem de tópicos é uma técnica que organiza coleções de documentos em “temas” ou “tópicos” recorrentes, sem a 
+necessidade de rotulação manual. Ela permite que um sistema identifique automaticamente quais são os principais assuntos 
+tratados em um conjunto de textos. Por exemplo, em um conjunto de artigos de notícias, a modelagem de tópicos pode
+encontrar categorias como “política”, “esportes”, “economia” ou “entretenimento”, agrupando automaticamente textos que 
+tratem de cada um desses temas. 
+
+As principais bibliotecas que usaremos são: 
+Gensim: Para aplicar o modelo LDA. 
+NLTK: Para acessar o corpus Reuters e realizar o pré-processameto
+
+
+
+AULA 08 
+Explicação sobre o papel do aprendizado de máquina no PLN: 
+Machine Learning (ML) é uma ferramenta poderosa no PLN porque permite que computadores aprendam padrões a partir de dados 
+textuais e façam previsões ou classificações sem a necessidade de regras programadas manualmente. 
+Exemplo: Em vez de criar uma lista de palavras positivas e negativas para analisar sentimentos, um modelo de ML aprende 
+essas relações com base em exemplos rotulados (dados de treinamento). 
+
+Diferença entre classificação e regressão no PLN: 
+Classificação: O modelo categoriza textos em classes predefinidas. 
+Exemplo: Classificar um comentário como positivo ou negativo. 
+
+Regressão: O modelo prevê um valor numérico com base no texto. 
+Exemplo: Estimar a pontuação de um produto (0 a 5 estrelas) com base em uma resenha. 
+
+
+O que é o Naive Bayes? É um modelo probabilístico que usa o Teorema de Bayes para prever a classe de um dado
+(como um texto), baseado na probabilidade de ele pertencer a uma categoria específica. 
+р(Х) Onde 
+P(C|X): Probabilidade da classe C dado o dado X. 
+P(X∣C): Probabilidade do dado X ocorrer na classe C. 
+P(C): Probabilidade prévia da classe C. 
+
+Pré-processamento do texto: Normalização, tokenização, remoção de stopwords, etc.
+Representação do texto em formato numérico: 
+Use técnicas como TF-IDF para transformar o texto em vetores (matriz de termos e pesos). 
+Treinamento do SVM: 
+O modelo aprende a separar os documentos de diferentes classes analisando os vetores. 
+
